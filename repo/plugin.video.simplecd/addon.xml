@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.simplecd" name="SimpleCD Wizard" version="1.0.0" provider-name="SimpleCD">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">SimpleCD Wizard</summary>
+    <description lang="en">SimpleCD Build</description>
+	<website>https://github.com/davies1995/SimpleCD</website>
+    <platform>all</platform>
+  </extension>
+</addon>
